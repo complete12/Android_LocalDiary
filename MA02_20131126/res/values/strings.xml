@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocalApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_insert_contact">New Location</string>
+    <string name="title_activity_search_contact">Search Data</string>
+    <string name="title_activity_all_contacts">All Data</string>
+    <string name="title_activity_update_contact">Modify Location</string>
+    <string name="title_activity_search">Search Location</string>
+    <string name="title_activity_info">Info.</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+
+</resources>

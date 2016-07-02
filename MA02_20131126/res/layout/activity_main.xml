@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/searchContactBtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:columnCount="6"
+    android:orientation="horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Space
+        android:id="@+id/Space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="11" />
+
+    <Space
+        android:id="@+id/Space10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:id="@+id/Space9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAddNewContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSearchContact"
+        android:layout_alignBottom="@+id/btnSearchContact"
+        android:layout_toLeftOf="@+id/btnSearchContact"
+        android:onClick="onClick"
+        android:text="장소 입력"
+        android:width="130dp" />
+
+    <Button
+        android:id="@+id/btnSearchContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnOpenAllContact"
+        android:layout_alignLeft="@+id/btnOpenAllContact"
+        android:onClick="onClick"
+        android:text="장소 검색"
+        android:width="130dp" />
+
+    <Button
+        android:id="@+id/btnOpenAllContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btnFavorite"
+        android:onClick="onClick"
+        android:text="저장 장소 보기"
+        android:width="130dp" />
+
+    <Button
+        android:id="@+id/btnFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="34dp"
+        android:onClick="onClick"
+        android:text="즐겨찾기 목록"
+        android:width="130dp" />
+
+</RelativeLayout>
